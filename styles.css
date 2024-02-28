@@ -1,41 +1,39 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* світло-сірий колір тла сторінки */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-}
-
-header {
-    background-color: #dc3545;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-main {
-    padding: 20px 0;
-    text-align: center;
-}
-
-a.file-link {
-    display: inline-block;
-    margin: 15px 10px;
-    padding: 10px 20px;
-    background-color: #dc3545;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #dc3545;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.section-red {
+    background-color: #ff4500; /* червоний колір фону першої секції */
+    color: #fff; /* білий колір тексту в першій секції */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #fff; /* білий колір фону кнопок */
+    color: #ff4500; /* червоний колір тексту кнопок */
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* змінює колір фону при наведенні */
+    color: #fff; /* змінює колір тексту при наведенні */
 }
