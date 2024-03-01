@@ -1938,3 +1938,8 @@ $('.settings-param-title').insertAfter($('.settings-param').last())
 }
 	
 });	
+} // /* addonStart */
+if (!!window.appready) addonStart();
+else Lampa.Listener.follow('app', function(e){if (e.type === 'ready') addonStart()});	
+	
+})();
