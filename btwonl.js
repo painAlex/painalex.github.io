@@ -17,8 +17,8 @@
   var framework = 'https://bwa.pages.dev';
   var framework_version = '?v=210224';
 
-  var plugins = ["o.js"];
-  var plugins_version = '?v=250124';
+  var plugins = ["o.js","s.js"];
+  var plugins_version = '?v=290224';
 
   if (typeof WebAssembly == 'undefined' || window.blazor_error) {
     Lampa.Utils.putScriptAsync(hostcloud, function() {});
