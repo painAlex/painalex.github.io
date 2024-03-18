@@ -4,7 +4,7 @@
 function addonStart() {
 	    
 /*
- * * * Іконки розділів плагіна
+ * * * Иконки разделов плагина
  */
 var icon_add_plugin= '<svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px" viewBox="0 0 512 512" xml:space="preserve" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css">  .st0{fill:#ffffff;}  </style> <g> <path class="st0" d="M432.531,229.906c-9.906,0-19.125,2.594-27.313,6.375v-51.656c0-42.938-34.922-77.875-77.859-77.875h-51.641 c3.781-8.156,6.375-17.375,6.375-27.281C282.094,35.656,246.438,0,202.625,0c-43.828,0-79.484,35.656-79.484,79.469 c0,9.906,2.594,19.125,6.359,27.281H77.875C34.938,106.75,0,141.688,0,184.625l0.047,23.828H0l0.078,33.781 c0,23.031,8.578,36.828,12.641,42.063c12.219,15.797,27.094,18.172,34.891,18.172c11.953,0,23.141-4.953,33.203-14.703l0.906-0.422 l1.516-2.141c1.391-1.359,6.328-5.484,14.016-5.5c16.344,0,29.656,13.297,29.656,29.672c0,16.344-13.313,29.656-29.672,29.656 c-7.672,0-12.609-4.125-14-5.5l-1.516-2.141l-0.906-0.422c-10.063-9.75-21.25-14.703-33.203-14.703 c-7.797,0.016-22.672,2.375-34.891,18.172c-4.063,5.25-12.641,19.031-12.641,42.063L0,410.281h0.047L0,434.063 C0,477.063,34.938,512,77.875,512h54.563v-0.063l3.047-0.016c23.016,0,36.828-8.563,42.063-12.641 c15.797-12.219,18.172-27.094,18.172-34.891c0-11.953-4.953-23.141-14.688-33.203l-0.438-0.906l-2.125-1.516 c-1.375-1.391-5.516-6.328-5.516-14.016c0-16.344,13.313-29.656,29.672-29.656c16.344,0,29.656,13.313,29.656,29.656 c0,7.688-4.141,12.625-5.5,14.016l-2.125,1.516l-0.438,0.906c-9.75,10.063-14.703,21.25-14.703,33.203 c0,7.797,2.359,22.672,18.172,34.891c5.25,4.078,19.031,12.641,42.063,12.641l17,0.047V512h40.609 c42.938,0,77.859-34.938,77.859-77.875v-51.641c8.188,3.766,17.406,6.375,27.313,6.375c43.813,0,79.469-35.656,79.469-79.484 C512,265.563,476.344,229.906,432.531,229.906z M432.531,356.375c-19.031,0-37.469-22.063-37.469-22.063 c-3.344-3.203-6.391-4.813-9.25-4.813c-2.844,0-5.469,1.609-7.938,4.813c0,0-5.125,5.891-5.125,19.313v80.5 c0,25.063-20.313,45.391-45.391,45.391h-23.813l-33.797-0.078c-15.438,0-22.188-5.875-22.188-5.875 c-3.703-2.859-5.563-5.875-5.563-9.172c0-3.266,1.859-6.797,5.563-10.594c0,0,17.219-13.891,17.219-39.047 c0-34.313-27.844-62.156-62.156-62.156c-34.344,0-62.156,27.844-62.156,62.156c0,25.156,17.219,39.047,17.219,39.047 c3.688,3.797,5.531,7.328,5.531,10.594c0,3.297-1.844,6.313-5.531,9.172c0,0-6.766,5.875-22.203,5.875l-33.797,0.078H77.875 c-25.063,0-45.375-20.328-45.375-45.391l0.094-48.203h-0.047l0.016-9.422c0-15.422,5.875-22.203,5.875-22.203 c2.859-3.703,5.875-5.531,9.156-5.531s6.813,1.828,10.609,5.531c0,0,13.891,17.234,39.047,17.234 c34.313-0.016,62.156-27.844,62.156-62.156c-0.016-34.344-27.844-62.156-62.156-62.156c-25.156,0-39.047,17.219-39.047,17.219 c-3.797,3.688-7.328,5.531-10.609,5.531s-6.297-1.828-9.156-5.531c0,0-5.875-6.781-5.875-22.203v-1.156h0.031L32.5,184.625 c0-25.063,20.313-45.375,45.375-45.375h80.5c13.422,0,19.313-5.125,19.313-5.125c6.422-4.938,6.422-10.531,0-17.188 c0,0-22.063-18.438-22.063-37.469c0-25.953,21.047-46.984,47-46.984c25.938,0,46.984,21.031,46.984,46.984 c0,19.031-22.047,37.469-22.047,37.469c-6.438,6.656-6.438,12.25,0,17.188c0,0,5.875,5.125,19.281,5.125h80.516 c25.078,0,45.391,20.313,45.391,45.375v80.516c0,13.422,5.125,19.297,5.125,19.297c2.469,3.219,5.094,4.813,7.938,4.813 c2.859,0,5.906-1.594,9.25-4.813c0,0,18.438-22.047,37.469-22.047c25.938,0,46.969,21.047,46.969,46.984 C479.5,335.344,458.469,356.375,432.531,356.375z"></path> </g> </g></svg>'
 var icon_add_interface_plugin = '<div class="settings-folder" style="padding:0!important"><div style="width:1.8em;height:1.3em;padding-right:.5em"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4.27209 20.7279L10.8686 14.1314C11.2646 13.7354 11.4627 13.5373 11.691 13.4632C11.8918 13.3979 12.1082 13.3979 12.309 13.4632C12.5373 13.5373 12.7354 13.7354 13.1314 14.1314L19.6839 20.6839M14 15L16.8686 12.1314C17.2646 11.7354 17.4627 11.5373 17.691 11.4632C17.8918 11.3979 18.1082 11.3979 18.309 11.4632C18.5373 11.5373 18.7354 11.7354 19.1314 12.1314L22 15M10 9C10 10.1046 9.10457 11 8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9ZM6.8 21H17.2C18.8802 21 19.7202 21 20.362 20.673C20.9265 20.3854 21.3854 19.9265 21.673 19.362C22 18.7202 22 17.8802 22 16.2V7.8C22 6.11984 22 5.27976 21.673 4.63803C21.3854 4.07354 20.9265 3.6146 20.362 3.32698C19.7202 3 18.8802 3 17.2 3H6.8C5.11984 3 4.27976 3 3.63803 3.32698C3.07354 3.6146 2.6146 4.07354 2.32698 4.63803C2 5.27976 2 6.11984 2 7.8V16.2C2 17.8802 2 18.7202 2.32698 19.362C2.6146 19.9265 3.07354 20.3854 3.63803 20.673C4.27976 21 5.11984 21 6.8 21Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div><div style="font-size:1.3em">Интерфейс</div></div>'
@@ -16,10 +16,10 @@ var icon_add_radio_plugin = '<div class="settings-folder" style="padding:0!impor
 var icon_add_sisi_plugin = '<div class="settings-folder" style="padding:0!important"><div style="width:1.8em;height:1.3em;padding-right:.5em"><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M51.348 15.912c-3.332-3.347-7.33-4.796-11.498-4.796c-.359 0-.721.016-1.08.038C37.734 6.492 36.295 2 36.295 2s-6.291 3.991-9.97 7.716c-4.255-3.327-9.149-6.391-9.149-6.391s-1.044 7.646-.678 13.247c-5.577-.361-13.188.692-13.188.692s3.051 4.912 6.368 9.185C5.97 30.146 2 36.47 2 36.47s4.646 1.497 9.382 2.538c-.159 4.421 1.261 8.681 4.776 12.213C23.599 58.692 36.494 62 46.373 62c5.729-.001 10.445-1.113 12.492-3.17c5.522-5.549 4.184-31.161-7.517-42.918m6.074 41.482c-1.236 1.242-4.789 2.57-11.049 2.571c-9.275 0-21.77-3.147-28.771-10.18c-8.058-8.096-3.363-20.183 4.41-27.987c5.389-5.413 12.057-8.646 17.838-8.646c3.9.001 7.283 1.411 10.055 4.198c4.908 4.93 8.424 13.172 9.643 22.61c1.147 8.891-.2 15.499-2.126 17.434" fill="#ffffff"></path><path d="M40.172 18.321c.578.403 1.215.606 1.771.607c.541 0 1.006-.19 1.271-.573c.545-.775.063-2.052-1.072-2.848c-.58-.405-1.215-.607-1.773-.607c-.539 0-1.006.19-1.273.572c-.543.776-.063 2.054 1.076 2.849" fill="#ffffff"></path><path d="M44.074 32.729a1.34 1.34 0 0 0-.891.31c-.715.621-.557 1.976.352 3.025c.604.695 1.389 1.081 2.057 1.08c.34.001.65-.099.891-.309c.717-.621.557-1.975-.352-3.024c-.604-.696-1.387-1.081-2.057-1.082" fill="#ffffff"></path><path d="M35.293 23.932a1.306 1.306 0 0 0-.865.294c-.727.609-.592 1.968.303 3.031c.602.715 1.391 1.114 2.064 1.115c.33 0 .629-.097.867-.295c.727-.61.59-1.966-.303-3.033c-.601-.714-1.392-1.113-2.066-1.112" fill="#ffffff"></path><path d="M52.404 26.469c-.518-.945-1.369-1.53-2.111-1.53a1.264 1.264 0 0 0-.604.148c-.832.456-.967 1.813-.301 3.032c.52.945 1.367 1.529 2.111 1.529c.213 0 .418-.047.604-.148c.833-.455.967-1.812.301-3.031" fill="#ffffff"></path><path d="M54.955 38.393c-.102 0-.203.014-.303.039c-.918.24-1.379 1.521-1.027 2.866c.313 1.198 1.162 2.037 1.994 2.038c.102 0 .203-.013.303-.038c.918-.239 1.379-1.523 1.027-2.868c-.312-1.196-1.164-2.037-1.994-2.037" fill="#ffffff"></path><path d="M53.76 51.021c-.354.001-.674.105-.918.327c-.703.636-.518 1.987.414 3.019c.607.671 1.381 1.038 2.041 1.039c.354-.001.676-.106.922-.329c.701-.636.516-1.987-.418-3.017c-.606-.669-1.379-1.039-2.041-1.039" fill="#ffffff"></path><path d="M32.923 50.042c-.569-.384-1.189-.573-1.736-.572c-.559 0-1.041.198-1.309.598c-.527.788-.02 2.054 1.135 2.825c.57.383 1.191.573 1.736.573c.561 0 1.042-.2 1.309-.6c.528-.786.02-2.053-1.135-2.824" fill="#ffffff"></path><path d="M21.165 46.683c-.569-.382-1.189-.571-1.735-.571c-.561 0-1.042.199-1.309.597c-.527.787-.02 2.055 1.134 2.825c.57.382 1.191.574 1.738.573c.559 0 1.041-.199 1.307-.6c.526-.786.02-2.052-1.135-2.824" fill="#ffffff"></path><path d="M42.547 54.622a3.435 3.435 0 0 0-1.275-.259c-.797-.001-1.463.326-1.701.91c-.354.877.404 2.013 1.691 2.531c.434.175.871.258 1.275.257c.797 0 1.465-.324 1.699-.908c.356-.878-.4-2.012-1.689-2.531" fill="#ffffff"></path><path d="M45.164 44.696c-.543-.323-1.119-.481-1.633-.481c-.617-.001-1.143.229-1.406.672c-.486.814.09 2.053 1.283 2.763c.543.322 1.119.48 1.635.48c.615 0 1.141-.229 1.404-.672c.485-.816-.09-2.054-1.283-2.762" fill="#ffffff"></path><path d="M34.568 37.753c-.602-.5-1.295-.758-1.895-.757c-.465-.001-.873.155-1.138.474c-.604.729-.229 2.042.839 2.928c.603.498 1.297.758 1.897.758c.465 0 .871-.156 1.137-.475c.604-.73.231-2.043-.84-2.928" fill="#ffffff"></path><path d="M23.867 23.223c-.385.001-.73.119-.982.368c-.676.665-.434 2.008.539 2.997c.611.618 1.364.953 2.009.954c.384-.001.729-.119.981-.368c.676-.666.435-2.008-.539-2.996c-.612-.621-1.364-.954-2.008-.955" fill="#ffffff"></path><path d="M22.812 34.974c-.598-.473-1.275-.716-1.863-.715c-.484 0-.909.163-1.175.5c-.589.741-.184 2.046.904 2.906c.598.474 1.276.715 1.864.715c.484 0 .908-.161 1.174-.499c.587-.742.184-2.045-.904-2.907" fill="#ffffff"></path></g></svg></div><div style="font-size:1.3em">18+</div></div>'
 var ads = '<div style="padding: 0.3em 0.3em; padding-top: 0;"><div style="background: #3e3e3e; padding: 0.5em; border-radius: 1em;"><div style="line-height: 1.2;"><span style="color: #ffffff"><div style="text-align: center;">Добавляйтесь в нашу группу<br> ПЛАГИНЫ БЕЗ ЦЕНЗУРЫ</br><span style="color: #f3d900">@lampa_plugins_uncensored</span></span></div></div></div></div>'	
 
-/* Функції, що викликаються регулярно */
+/* Регулярно вызываемые функции */
 	Lampa.Storage.set('needReboot', false);
 	Lampa.Storage.set('needRebootSettingExit', false);
-/* Запит на перезавантаження в модальному вікні */
+/* Запрос на перезагрузку в модальном окне */
 function showReload(reloadText){
 Lampa.Modal.open({
       title: '',
@@ -34,22 +34,22 @@ Lampa.Modal.open({
 	  Lampa.Controller.toggle('settings_component');
         }
       }, {
-        name: 'Так',
+        name: 'Да',
         onSelect: function onSelect() {
           window.location.reload();
         }
       }]
 });
 }
-/* Стежимо за налаштуваннями */
+/* Следим за настройками */
 function settingsWatch() {
-	/* перевіряємо прапор перезавантаження і чекаємо виходу з налаштувань */
+	/* проверяем флаг перезагрузки и ждём выхода из настроек */
 	if (Lampa.Storage.get('needRebootSettingExit')) {
   		var intervalSettings = setInterval(function() {
   			var elementSettings = $('#app > div.settings > div.settings__content.layer--height > div.settings__body > div');
   			if (!elementSettings.length > 0){
     				clearInterval(intervalSettings);
-				showReload('Для повного видалення плагіна перезавантажте додаток!');
+				showReload('Для полного удаления плагина перезагрузите приложение!');
   			}
 		}, 1000)
 	}
@@ -61,38 +61,38 @@ function itemON(sourceURL, sourceName) {
                    document.getElementsByTagName ('head')[0].appendChild (script);
 			setTimeout(function() {
 			   Lampa.Settings.update();
-			   Lampa.Noty.show("Плагін " + sourceName + " успішно встановлено")
+			   Lampa.Noty.show("Плагин " + sourceName + " успешно установлен")
 			}, 300);
 };
 --> */
 
 function itemON(sourceURL, sourceName, sourceAuthor, itemName) {
-if ($('DIV[data-name="' + itemName + '"]').find('.settings-param__status').hasClass('active')) {Lampa.Noty.show("Плагін уже встановлений!")} else {	
-	// Якщо перезавантаження не потрібне - контроль після видалення плагінів
+if ($('DIV[data-name="' + itemName + '"]').find('.settings-param__status').hasClass('active')) {Lampa.Noty.show("Плагин уже установлен!")} else {	
+	// Если перезагрузки не требуется - контроль после удаления плагинов
    if (!Lampa.Storage.get('needReboot')) {
-	// Отримуємо перелік плагінів
+	// Получаем список плагинов
 		var pluginsArray = Lampa.Storage.get('plugins');
-	// Додаємо новий елемент до переліку
+	// Добавляем новый элемент к списку
 		pluginsArray.push({
 			"author": sourceAuthor,
 			"url": sourceURL,
 			"name": sourceName,
 			"status": 1
 		});
-	// Впроваджуємо змінений список у лампу
+	// Внедряем изменённый список в лампу
 		Lampa.Storage.set('plugins', pluginsArray);
-	// Робимо ін'єкцію скрипта для негайної роботи
+	// Делаем инъекцию скрипта для немедленной работы
 		var script = document.createElement ('script');
 		script.src = sourceURL;
 		document.getElementsByTagName ('head')[0].appendChild (script);
 		setTimeout(function() {
 			Lampa.Settings.update();
-			Lampa.Noty.show("Плагін " + sourceName + " успішно встановлено")
+			Lampa.Noty.show("Плагин " + sourceName + " успешно установлен")
 		}, 300);
-// Надсилаємо сигнал очікування виходу з налаштувань для появи вікна із пропозицією перезавантаження
+// Отправляем сигнал ожидания выхода из настроек для появления окна с предложением перезагрузки
 	  // Lampa.Storage.set('needRebootSettingExit', true);
 	  // settingsWatch();
-   } //else {showReload('Для встановлення плагінів після видалення, потрібно перезавантажити додаток');}
+   } //else {showReload('Для установки плагинов после удаления, нужно перезагрузить приложение');}
 }
 }	
 function hideInstall() {
@@ -106,7 +106,7 @@ function deletePlugin(pluginToRemoveUrl) {
 	Lampa.Storage.set('plugins', updatedPlugins);
 	//Lampa.Storage.set('needReboot', true);
 	Lampa.Settings.update();
-	Lampa.Noty.show("Плагін успішно видалений");
+	Lampa.Noty.show("Плагин успешно удален");
 	Lampa.Storage.set('needRebootSettingExit', true);
 	   settingsWatch();
 };
@@ -119,13 +119,13 @@ function checkPlugin(pluginToCheck) {
 	if (JSON.stringify(checkResult) !== '[]') {return true} else {return false}
 };
 	
-/* Складова */
+/* Компонент */
 Lampa.SettingsApi.addComponent({
             component: 'add_plugin',
-            name: 'Плагіни',
+            name: 'Плагины',
             icon: icon_add_plugin
        });
-/* Інтерфейс */
+/* Интерфейс */
         Lampa.Settings.listener.follow('open', function (e) {
             if (e.name == 'main') {
                 Lampa.SettingsApi.addComponent({
@@ -144,7 +144,7 @@ Lampa.SettingsApi.addComponent({
 				}, 0);
 				$("#hideInstall").remove();
 				//$('body').append('<div id="hideInstall"><style>div.settings-param__value{opacity: 0%!important;display: none;}</style><div>')
-		                /* Зсуваємо розділ вище */
+		                /* Сдвигаем раздел выше */
 				        setTimeout(function() {
 					  $('div[data-component=plugins]').before($('div[data-component=add_plugin]'))
 					}, 30)
@@ -177,14 +177,14 @@ Lampa.SettingsApi.addComponent({
 						name: 'TMDB',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
                     			//default: '1',
 						},
 					field: {
 						name: 'TMDB Proxy',
-						description: 'Проксування постерів для сайту TMDB'
+						description: 'Проксирование постеров для сайта TMDB'
                             },
 					onChange: function(value) {
 						if (value == '1') {
@@ -215,18 +215,18 @@ Lampa.SettingsApi.addComponent({
 						name: 'Feedback',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
-						name: 'Відгуки',
-						description: 'Додає в картці кнопку з відгуками'
+						name: 'Отзывы',
+						description: 'Добавляет в карточке кнопку с отзывами'
 					},
 					onChange: function(value) {
 						if (value == '1') {
-							itemON('http://newtv.mail66.org/o.js', 'Відгуки', '@elenatv99', 'Feedback');
+							itemON('http://newtv.mail66.org/o.js', 'Отзывы', '@elenatv99', 'Feedback');
 						}
 						if (value == '2') {
 							var pluginToRemoveUrl = "http://newtv.mail66.org/o.js";
@@ -252,18 +252,18 @@ Lampa.SettingsApi.addComponent({
 						name: 'Tricks',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
-						name: 'Приємні дрібниці',
-						description: 'Плагін дає змогу на вибір встановити різні доповнення (скрінсейвери, стилізація кнопок, стиль плеєра, годинник у плеєрі тощо).'
+						name: 'Приятные мелочи',
+						description: 'Плагин позволяет на выбор установить различные дополнения (скринсейверы, стилизация кнопок, стиль плеера, часы в плеере и т.п.)'
 					},
 					onChange: function(value) {
 						if (value == '1') {
-							itemON('https://andreyurl54.github.io/diesel5/tricks.js', 'Приємні дрібниці', '@AndreyURL54', 'Tricks');
+							itemON('https://andreyurl54.github.io/diesel5/tricks.js', 'Приятные Мелочи', '@AndreyURL54', 'Tricks');
 						}
 						if (value == '2') {
 							var pluginToRemoveUrl = "https://andreyurl54.github.io/diesel5/tricks.js";
@@ -289,18 +289,18 @@ Lampa.SettingsApi.addComponent({
 						name: 'Rating',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
-						name: 'Рейтинг IMDB',
-						description: 'Показ рейтингу IMDB в картці. Функціонал аналогічний частині з MODSs, тож їх не слід використовувати разом'
+						name: 'Рейтинг КиноПоиск и IMDB',
+						description: 'Показ рейтинга КиноПоиск и IMDB в карточке. Функционал аналогичен части из MODSs, так что их не следует использовать вместе'
 					},
 					onChange: function(value) {
 						if (value == '1') {
-							itemON('https://nb557.github.io/plugins/rating.js', 'Рейтинг IMDB', '@t_anton', 'Rating');
+							itemON('https://nb557.github.io/plugins/rating.js', 'Рейтинг КиноПоиск и IMDB', '@t_anton', 'Rating');
 						}
 						if (value == '2') {
 							var pluginToRemoveUrl = "https://nb557.github.io/plugins/rating.js";
@@ -325,18 +325,18 @@ Lampa.SettingsApi.addComponent({
 						name: 'Want',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
-						name: 'Старий стиль пунктів (Закладки, Подобається, Пізніше)',
-						description: 'Плагін повертає в головне меню старий стиль відображення пунктів (Закладки, Подобається, Пізніше)'
+						name: 'Старый стиль пунктов (Закладки, Нравится, Позже)',
+						description: 'Плагин возвращает в главное меню старый стиль отображения пунктов (Закладки, Нравится, Позже)'
 					},
 					onChange: function(value) {
 						if (value == '1') {
-							itemON('http://github.freebie.tom.ru/want.js', 'Старий стиль пунктів (Закладки, Подобається, Пізніше)', '@VitalikPVA', 'Want');
+							itemON('http://github.freebie.tom.ru/want.js', 'Старый Стиль Пунктов (Закладки, Нравится, Позже)', '@VitalikPVA', 'Want');
 						}
 						if (value == '2') {
 							var pluginToRemoveUrl = "http://github.freebie.tom.ru/want.js";
@@ -361,8 +361,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Sub_reset',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -397,8 +397,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Mult',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -433,8 +433,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Collections',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -469,8 +469,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Weather',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -505,14 +505,14 @@ Lampa.SettingsApi.addComponent({
 						name: 'Cub_off',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
 						name: 'Cub Off',
-						description: 'Плагін прибирає елементи, що пропонують оформитиcub premium'
+						description: 'Плагин убирает элементы, предлагающие оформить cub premium'
 					},
 					onChange: function(value) {
 						if (value == '1') {
@@ -541,8 +541,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Style_interface_fix',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -577,8 +577,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'New_cat',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -613,18 +613,18 @@ Lampa.SettingsApi.addComponent({
 						name: 'New_source',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
 					field: {
-						name: 'Додаткові джерела',
-						description: 'Плагін додає додаткові джерела для отримання інформації про фільми'
+						name: 'Дополнительные источники',
+						description: 'Плагин добавляет дополнительные источники для получения информации о фильмах'
 					},
 					onChange: function(value) {
 						if (value == '1') {
-						       itemON('https://bylampa.github.io/source.js', 'Додаткові джерела', '@scabrum', 'New_source');
+						       itemON('https://bylampa.github.io/source.js', 'Дополнительные Источники', '@scabrum', 'New_source');
 						}
 						if (value == '2') {
 							var pluginToRemoveUrl = "https://bylampa.github.io/source.js";
@@ -649,8 +649,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Start',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -685,8 +685,8 @@ Lampa.SettingsApi.addComponent({
 							name: 'goldtheme',
 							type: 'select',
 							values: {
-								1:	'Встановити',
-								2:	'Видалити',
+								1:	'Установить',
+								2:	'Удалить',
 							},
 						//default: '1',
 							},
@@ -768,8 +768,8 @@ Lampa.SettingsApi.addComponent({
                                		name: 'Exit_Menu',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -805,8 +805,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'New_Version',
 						type: 'select',																																		
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -842,8 +842,8 @@ Lampa.SettingsApi.addComponent({
                                			name: 'Hot_Buttons',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -879,8 +879,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'DLNA',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -915,8 +915,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Select_Weapon',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -951,8 +951,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Touch_off',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -987,8 +987,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Wsoff',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -1023,8 +1023,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Redirect',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 						},
@@ -1105,8 +1105,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Modss',
 						type: 'select',
 					values: {
-						1:	'Встановити',
-						2:	'Видалити',
+						1:	'Установить',
+						2:	'Удалить',
 					},
 					//default: '1',
 					},
@@ -1142,8 +1142,8 @@ Lampa.SettingsApi.addComponent({
                                 		name: 'Online_Mod',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 					},
 					//default: '1',
               				},
@@ -1179,8 +1179,8 @@ Lampa.SettingsApi.addComponent({
                                 		name: 'Онлайн_Prestige',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 					},
 					//default: '1',
 					},
@@ -1216,8 +1216,8 @@ Lampa.SettingsApi.addComponent({
                                			name: 'Онлайн_BWA',
                    				type: 'select',
                    				values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
                    				},
 					//default: '1',
                				},
@@ -1298,8 +1298,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Switch_Parser',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
                   			},
@@ -1335,8 +1335,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Tracks',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1372,8 +1372,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Setting_torrents',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1408,8 +1408,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Check_server',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1444,8 +1444,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Torr_download',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1527,8 +1527,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Diesel',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1564,8 +1564,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Kulik',
                         			type: 'select',
                         			values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
                         		},
 					//default: '1',
 					},
@@ -1601,8 +1601,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'IPTV',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1637,8 +1637,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Hack_TV',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 					//default: '1',
 					},
@@ -1719,8 +1719,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Record',
                         			type: 'select',
                         			values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
                         			},
 					//default: '1',
 					},
@@ -1756,26 +1756,26 @@ Lampa.SettingsApi.addComponent({
 						name: 'Record_Mod',
        				                type: 'select',
                        				values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
                         			},
 					//default: '1',
 					},
 					field: {
 						name: 'Радио Record Mod',
-						description: 'Всё тот же плагин Радио Record, но с качеством потока в 320kbp/s и единым списком станций без разделения на жанры'
+						description: 'Всё тот же плагин Радио Record, но с единым списком станций без разделения на жанры'
 					},
 					onChange: function(value) {
                         			if (value == '1') {
-							itemON('https://nemiroff.github.io/lampa/rr.js', 'Радио Record Mod', '@nemiroff', 'Record_Mod');
+							itemON('https://lampame.github.io/main/rradio.js', 'Радио Record Mod', '@GwynnBleiidd', 'Record_Mod');
                      				}
 						if (value == '2') {
-							var pluginToRemoveUrl = "https://nemiroff.github.io/lampa/rr.js";
+							var pluginToRemoveUrl = "https://lampame.github.io/main/rradio.js";
 							deletePlugin(pluginToRemoveUrl);
 						}
                     },
 					onRender: function (item) {$('.settings-param__name', item).css('color','f3d900'); hideInstall();
-						var myResult = checkPlugin('https://nemiroff.github.io/lampa/rr.js')
+						var myResult = checkPlugin('https://lampame.github.io/main/rradio.js')
 						setTimeout(function() {	
 							$('div[data-name="Record_Mod"]').append('<div class="settings-param__status one"></div>')
 							if (myResult) {
@@ -1838,8 +1838,8 @@ Lampa.SettingsApi.addComponent({
 						name: 'Sisi',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 						//default: '1',
 					},
@@ -1868,14 +1868,14 @@ Lampa.SettingsApi.addComponent({
 						}, 100);		  
 					}
 		});
-	        Lampa.SettingsApi.addParam({
+	       /* Lampa.SettingsApi.addParam({
 					component: 'add_sisi_plugin',
 					param: {
 						name: 'Nyam',
 						type: 'select',
 						values: {
-							1:	'Встановити',
-							2:	'Видалити',
+							1:	'Установить',
+							2:	'Удалить',
 						},
 						//default: '1',
 					},
@@ -1903,7 +1903,7 @@ Lampa.SettingsApi.addComponent({
 							}
 						}, 100);		  
 					}
-		});
+		});*/
 	        /*Lampa.SettingsApi.addParam({
                                   component: 'add_sisi_plugin',
                                   param: {
@@ -1936,10 +1936,6 @@ Lampa.SettingsApi.addParam({
                 $('.settings-param-title').insertAfter($('.settings-param').last())
                 },0);
                 }
-	
-         });	
-
-    
 } // /* addonStart */
 if (!!window.appready) addonStart();
 else Lampa.Listener.follow('app', function(e){if (e.type === 'ready') addonStart()});	
